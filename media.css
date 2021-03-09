@@ -1,0 +1,86 @@
+@media(min-width:2559px){
+    .slide{
+        background-size: contain;
+        height: 45.3%;
+    }
+    .next {
+        top: 20%;
+    }
+    .prev {
+        top: 20%;
+    }
+}
+
+@media(max-width:1024px){
+    .firstDiv {
+        padding: 10% 0 0 10%;
+    }
+}
+
+@media(max-width:768px){
+    .thecondDiv {
+        padding: 29% 0 0 22%;
+    }
+    .fourthDiv {
+        padding: 3% 0 0 46%;
+    }
+    .thirdDiv {
+        padding: 10% 0 0 56%;
+    }
+    .firstDiv {
+        padding: 26% 0 0 24%;
+    }
+}
+
+@media(max-width:426px){
+    .next {
+        top: 15%;
+    }
+    .prev {
+        top: 15%;
+    }
+
+    .firstDiv {
+        padding: 11% 0 0 18%;
+    }
+    .app>button{
+        width: 50px;
+        height: 50px;
+    }
+    .thecondDiv {
+        padding: 4% 0 0 21%;
+    }
+    .thirdDiv {
+        padding: 4% 0 0 33%;
+    }   
+    .fourthDiv {
+        padding: 2% 0 0 18%;
+    }
+}
+
+@media(max-width:376px){
+    .thirdDiv {
+        padding: 14% 0 0 19%;
+    }
+    .firstDiv {
+        padding: 6% 0 0 18%;
+    }
+}
+
+@media(max-width:321px){
+    .slide {
+       font-size: small;
+       text-align: center;
+    }
+
+    .slide div{
+        padding-left: 0;
+    }
+    .next {
+        top: 10%;
+    }
+    .prev {
+        top: 10%;
+    }
+
+}

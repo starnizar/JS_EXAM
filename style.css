@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat'}
+
+.app {
+    height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide {
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.slide h1{
+    color: rgb(255, 238, 0);
+}
+
+.slide p {
+    padding-top: 10px;
+    color: grey;
+    font-weight: 600;
+}
+
+.slide button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+}
+.slide button:hover{
+    box-shadow: 0 0 25px 10px red;
+    background: linear-gradient(
+        rgb(255, 0, 0) 5%,
+        rgb(255, 196, 196) 50%,
+        rgb(255, 0, 0) 100%
+    );
+}
+.slide button:active{
+    box-shadow: 0 0 25px 20px rgb(255, 0, 0);
+}
+
+.slide1 {
+    background-image: url('./image/slide1.jpg');
+}
+.firstDiv{
+    padding: 10% 0 0 16%;
+}
+
+.slide2 {
+    background-image: url('./image/slide2.jpg');
+}
+.thecondDiv{
+    padding: 33% 0  0 5%;
+}
+
+.slide3 {
+    background-image: url('./image/slide3.jpg');
+}
+.thirdDiv{
+    padding: 10% 0 0 70%;
+}
+
+.slide4 {
+    background-image: url('./image/slide4.jpg');
+}
+.fourthDiv{
+    padding: 6% 0 0 53%;
+}
+
+.app>button {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    opacity: 0.1;
+    border-radius: 50%;
+    transition: 0.3s;
+    border: hidden;
+}
+.app>button:hover {
+    opacity: 0.2;
+}
+.app>button:active {
+    opacity: 0.6;
+}
+.next {
+    right: 2%;
+    top: 37%;
+}
+.prev {
+    left: 2%;
+    top: 37%;
+}
